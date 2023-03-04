@@ -1,7 +1,7 @@
 {
-  "name": "koishi-plugin-example",
-  "description": "",
-  "version": "0.0.1",
+  "name": "koishi-plugin-runtu",
+  "description": "just for test",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -17,5 +17,9 @@
   ],
   "peerDependencies": {
     "koishi": "^4.11.6"
+  },
+  "dependencies": {
+    "openai": "^3.2.1",
+    "runtu-openaisdk": "^1.0.4"
   }
 }
