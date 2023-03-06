@@ -1,7 +1,16 @@
 {
-  "name": "koishi-plugin-runtu",
-  "description": "just for test",
-  "version": "1.0.0",
+  "name": "koishi-plugin-runtu-chat",
+  "description": "基于ChatGPT的聊天机器人，可以配置代理",
+  "version": "1.0.1",
+  "koishi": {
+    "description": {
+      "zh": "基于ChatGPT的聊天机器人，支持代理"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Runtus/koishi-plugin-gpt-runtu.git"
+  },
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
